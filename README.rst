@@ -7,6 +7,7 @@ how_are_we_stranded_here
 
 Python package for testing strandedness of RNA-Seq fastq files
 
+FORK: This fork was generated in order to resolve a bug that would prevent use of this package. The change consists of a single line of code on line 185 of "check_strandedness.py". This allows for the app to work when using a kallisto index, and a kallisto index only. Fasta files still give the app problems for whatever reason.
 
 Ever get RNA-Seq data where the library prep or strandedness has been omitted in the methods?
 
