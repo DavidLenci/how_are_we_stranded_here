@@ -11,6 +11,8 @@ FORK: This fork was generated in order to resolve a bug that would prevent use o
 
 Prebuilt kallisto index can be found here: https://github.com/pachterlab/kallisto-transcriptome-indices/releases/tag/ensembl-96
 
+Example: check_strandedness -g Homo_sapiens.GRCh38.96.gtf -r1 R1.fastq.gz -r R2.fastq.gz -k transcriptome.idx
+
 Ever get RNA-Seq data where the library prep or strandedness has been omitted in the methods?
 
 This should save some headaches later in your pipeline and analysis when you realise you've used the wrong strandedness setting (RF/fr-firststrand, FR/fr-secondstrand, unstranded)
